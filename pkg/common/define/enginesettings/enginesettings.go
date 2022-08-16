@@ -1,0 +1,13 @@
+package enginesettings
+
+const (
+	SAVE_ONSTASH_NONE int = iota
+	SAVE_ONSTASH_PRIVATE
+	SAVE_ONSTASH_SHARED
+	SAVE_ONSTASH_ALL
+)
+
+const (
+	TILESET_ISOMETRIC int = iota
+	TILESET_ORTHOGONAL
+)

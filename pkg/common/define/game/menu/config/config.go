@@ -1,0 +1,22 @@
+package config
+
+const (
+	EXIT_TAB = iota
+	VIDEO_TAB
+	AUDIO_TAB
+	INTERFACE_TAB
+	INPUT_TAB
+	KEYBINDS_TAB
+	MODS_TAB
+)
+
+const (
+	NO_TAB = -1
+)
+
+const (
+	EXIT_OPTION_CONTINUE = iota
+	EXIT_OPTION_SAVE
+	EXIT_OPTION_EXIT
+	EXIT_OPTION_TIME_PLAYED // 3
+)
